@@ -1,49 +1,16 @@
 import React from "react";
 import "./App.css";
 import "./index.css";
-import { Routes, Route, Link } from "react-router-dom";
 
 import Home from "./Home";
-import PageNotFound from "./PageNotFound";
 
 export default function App() {
   return (
     <div>
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
-        
-        {/* <Route path="*" element={<PageNotFound />} /> 
-      </Routes> */}
-
-      <NavBar />
       <Home />
       <Experience />
       <ExperienceTwo />
       <Form />
-    </div>
-  );
-}
-
-function NavBar() {
-  return (
-    <div className="navbar">
-      <img
-        className="logo"
-        src="sample_logo.jpg"
-        alt="Portfolio"
-        width="500"
-        height="600"
-      />
-
-      {/* <Link to="/App.js" activeClassName="active">
-        Home
-      </Link>
-      <Link to="/AboutMe.js" activeClassName="active">
-        About{" "}
-      </Link> */}
-      <Link to="/portfolio" activeClassName="active">
-        Portfolio
-      </Link>
     </div>
   );
 }
