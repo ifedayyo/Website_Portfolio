@@ -14,6 +14,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <NavBar />
+      <FootBar />
 
       <Routes>
         <Route path="/" element={<App />} />
@@ -36,7 +37,7 @@ function NavBar() {
     <div className="navbar">
       <img
         className="logo"
-        src="sample_logo.jpg"
+        src="./src/sample_logo.jpg"
         alt="Portfolio"
         width="500"
         height="600"
@@ -53,4 +54,8 @@ function NavBar() {
       </Link>
     </div>
   );
+}
+
+function FootBar() {
+  return <div></div>;
 }

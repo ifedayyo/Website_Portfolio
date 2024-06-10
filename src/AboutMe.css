@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 25px;
+  padding: 0;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* ----FORM---- */
+.formcontainer {
+  height: 550px;
+  padding: 80px;
+  padding-left: 200px;
+  margin: 4px;
+  margin-bottom: 100px;
+  background-color: #f4f4f4;
+  width: 100%;
+}
+.thecopy {
+}
+.copy {
+  font-weight: 350;
+}
+.copy2 {
+  margin-bottom: 50px;
+  font-size: 13px;
+}
+.justform {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-shrink: 200px;
+}
+.namemail {
+  display: flex;
+  flex: column;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.input {
+  opacity: 0.8;
+  font-family: "Montserrat";
+  width: 300px;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border-width: thin;
+  margin-top: 10px;
+}
+.formlabeltag {
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+.formlabel {
+  width: 670px;
+  font-family: "Montserrat";
+  height: 180px;
+  padding-left: 10px;
+  padding-top: -70px;
+  margin-top: 10px;
+}
+.button {
+  color: white;
+  background-color: black;
+  width: 100px;
+  height: 40px;
+  font-family: "Montserrat";
+}
+.second-button {
+  color: black;
+  background-color: white;
+  width: 200px;
+  height: 40px;
+  font-family: "Montserrat";
+  margin-left: 20px;
+}
+.emailaddress {
+}
+
+.nameemail label {
+  display: block;
+}
+.nameemail input {
+  padding: 5px;
+  flex: 1;
+}
+
+.alabel,
+.emailaddress {
+  position: absolute;
+  top: -20px;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+.alabel {
+  left: 0;
+}
+
+.emailaddress {
+  left: 0;
+  /*top: -25px;*/
+  position: absolute;
+}
+.inputwrapper {
+  position: relative;
+  margin-right: 20px;
+}
+.formlabel {
+  display: block;
+}
+.hey-there {
+  font-size: 12px;
+  opacity: 0.7;
+}
+.a-name {
+  font-weight: 400;
+}
+.favour {
+  font-weight: 700;
+}
+.introduction {
+  font-size: 14px;
+  word-spacing: 1.5px;
+  line-height: 19px;
+  opacity: 0.7;
+  margin-bottom: ;
+}
+.my-story {
+  font-weight: 400;
+  margin-top: 130px;
+}
+.the-story {
+  opacity: 0.9;
+  font-size: 15px;
+  word-spacing: 1.5px;
+  line-height: 23px;
+}
