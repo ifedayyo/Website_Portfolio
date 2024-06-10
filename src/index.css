@@ -289,6 +289,20 @@ video {
   background-color: #f4f4f4;
   width: 100%;
 }
+@media (min-width: 645px) {
+  .formcontainer {
+    height: 751.91px;
+    padding: 40px;
+    width: auto;
+  }
+}
+@media (min-width: 300px) {
+  .formcontainer {
+    height: 751.91px;
+    width: auto;
+    padding: 40px;
+  }
+}
 .thecopy {
 }
 .copy {

@@ -90,8 +90,8 @@ function Form() {
         </p>
       </div>
 
-      <form>
-        <div className="justform">
+      <div className="justform">
+        <form>
           <div className="namemail">
             <div className="inputwrapper">
               <label for="name" className="alabel">
@@ -128,8 +128,8 @@ function Form() {
               placeholder="Enter your message"
             ></textarea>
           </p>
-        </div>
-      </form>
+        </form>
+      </div>
 
       <button className="button">SUBMIT</button>
       <button className="second-button">Download My Current CV</button>
