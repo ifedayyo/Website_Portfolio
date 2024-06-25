@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-body {
+<meta name="viewport" content="width=device-width, initial-scale=1.0" / > body {
   margin: 25px;
   padding: 0;
   font-family: "Montserrat", Helvetica, sans-serif;
@@ -20,6 +20,7 @@ body {
   margin-bottom: 100px;
   background-color: #f4f4f4;
   width: 593.75px;
+  margin-top: 70px;
 }
 
 @media (min-width: 645px) {
@@ -36,7 +37,13 @@ body {
     padding: 40px;
   }
 }
-
+@media (min-width: 100px) {
+  .formcontainer {
+    height: 751.91px;
+    width: auto;
+    padding: 40px;
+  }
+}
 .copy {
   font-weight: 350;
 }
@@ -79,6 +86,7 @@ body {
   padding-top: -70px;
   margin-top: 10px;
 }
+
 .button {
   color: white;
   background-color: black;

@@ -8,7 +8,8 @@ import Portfolio from "./Portfolio";
 import reportWebVitals from "./reportWebVitals";
 import AboutMe from "./AboutMe";
 import PageNotFound from "./PageNotFound";
-
+import { HelmetProvider } from "react-helmet-async";
+import logo from "./logo.png";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -37,10 +38,10 @@ function NavBar() {
     <div className="navbar">
       <img
         className="logo"
-        src="./src/sample_logo.jpg"
+        src={logo}
         alt="Portfolio"
-        width="500"
-        height="600"
+        width="100"
+        height="50"
       />
 
       <Link to="/" activeClassName="active">

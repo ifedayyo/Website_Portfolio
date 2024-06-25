@@ -253,6 +253,12 @@ video {
   row-gap: 20px;
   margin-left: 15px;
 }
+@media (min-width: 900px) {
+  .jobdescription {
+    width: auto;
+    padding: 40px;
+  }
+}
 @media (min-width: 645px) {
   .jobdescription {
     padding: 40px;

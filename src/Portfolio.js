@@ -1,4 +1,6 @@
 import "./Portfolio.css";
+import first from "./heyfood.jpg";
+import second from "./mrsool.jpg";
 
 export default function Portfolio() {
   return (
@@ -11,27 +13,45 @@ export default function Portfolio() {
 
 function ProjectOne() {
   return (
-    <div>
-      <img />
-      <h1> HeyFood (here is a sample)</h1>
-      <p>Mobile App Design</p>
-      <i>Technologies: Dart, Flutter...</i>
+    <div className="main-container">
+      <div className="image">
+        <img src={first} alt="a set table captured with a phone camera lens" />
+      </div>
+
+      <div className="heyfood">
+        <h1 className="h1">
+          {" "}
+          HeyFood{" "}
+          <span className="sub-h1">
+            — Implementing user authentication using email, social media, or
+            phone numbers.
+          </span>
+        </h1>
+        <p className="title-of-project">Mobile App Design</p>
+      </div>
     </div>
   );
 }
 
 function ProjectTwo() {
   return (
-    <div>
-      <img
-        src="https://play-lh.googleusercontent.com/IwSOoFSOkdYp_b8leMuCDuTiSO07HOrlOo1fMF_LpBpou8bXlnhLiWLkHNBvBQBO4Qqm=w2560-h1440-rw"
-        height="auto"
-        width="80%"
-        alt="HeyFood app from playstore"
-      />
-      <h1> HeyFood (here is a sample)</h1>
-      <p>Mobile App Design</p>
-      <i>Technologies: Dart, Flutter...</i>
+    <div className="main-container">
+      <div className="image">
+        <img src={second} alt="a set table captured with a phone camera lens" />
+      </div>
+
+      <div className="heyfood">
+        <h1 className="h1-second">
+          {" "}
+          MrSool{" "}
+          <span className="sub-h1">
+            — Overseeing the development of key features such as user
+            authentication, menu management, order processing, payment
+            integration, and real-time tracking.
+          </span>
+        </h1>
+        <p className="title-of-project-second">Development of Key Features</p>
+      </div>
     </div>
   );
 }
